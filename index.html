@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<!--This is your page title that appears on the browser window -->
+<title>Unit Conversions app</title> 
+</head> 
+
+<body>
+<section id= "Home">
+<!--This is main heading-->
+<header> <b> unit conversion</header>
+<nav>
+<!-- This will be the main unit conversion buttons-->
+<!-- Button for redirecting users to the temperature section--> 
+<a href="#temperature"><Button> Temperature</Button</a>
+<!--Button for redirecting users to the weight section-->
+<a href="#Weight"><button>Weight</button> </a> 
+<!--Button for redirecting users to the distance setion-->
+<a href="#distance"><button>Distance</button></a>
+</nav>
+<!-- Code that was previously added in the preceeding steps-->
+<div id = "All-conversion-sections">
+<!-- This will have the conversion sections for Temperature, Weight, and Distance -->
+<section id= "Temperature"> 
+<!--Temperature Conversion Section -->
+</section>
+</div>
+    <section id = "Temperature"> 
+        <div id ="tmp" > 
+            <figure> 
+            <!-- Figure and its caption will come here-->
+            </figure> 
+        </div> 
+    </section> 
+<figure> 
+<img src ="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width = "200px"/>
+<figcaption>Celsius to Fahrenheit Conversion </figcaption> 
+</figure> 
+<div id ="tmp"> 
+<figure> 
+    <img src = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" width = "2000px"/>
+    <figcaption> Celsius to Fahrenheit Conversion</figcaption>
+</figure> 
+<article> 
+    <!-- This contains the specific elements of temperature conversion-->
+    <fieldset> 
+    <legend>Temperature </legend> 
+    <!--The fields and button for temperature input will come here -->
+    <label for ="Temperature"> Celsius</label> <br/>
+    <input type ="number" id ="c" ><br/>
+    <!--Label for temperature output-->
+    <input type = "number" id = "f"> <br/> 
+    <labe  for = "Temperature"> Fahrenheit</label> 
+    </fieldset> 
+
+</article> 
+<aside>
+  To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
+</aside>
+</div>
+
+</section> 
+</body> 
+</html>
